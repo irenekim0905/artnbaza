@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* 메인페이지 Mobile.css    */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    max-width: 767px;
+    margin: 0 auto;
+
+}
+header .logo {
+    width: 200px;
+    margin: 0 auto;
+   
+}
+
+header .logo img {
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+}
+
+header .logo .m-menu {
+    width: 38px;
+    height: 2px;
+    background-color: #666;
+}
+header .logo .m-menu span {
+    width: 38px;
+    height: 2px;
+    background-color: #666;
+}
+
+section {
+    width: 100%;
+    max-width: 767px;
+    margin: 0 auto;
+
+}
+ main .slide-box {
+   max-width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+}
+ main .slide-box .gallery {
+    width: 400%;
+    position: relative;
+    left: 0;
+}
+ main .slide-box .gallery li {
+    width: 25%;
+    float: left;
+    transition: all 1s
+    ease-in-out;
+}
+ main .slide-box ul li img {
+    width: 100%;
+    display: block;
+}
+
