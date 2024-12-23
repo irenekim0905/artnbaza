@@ -16,7 +16,6 @@ body {
 header {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
     /* position: relative; */
 
     padding: 20px 0;
@@ -68,7 +67,6 @@ header .m-menu span {
 section {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
     margin-top: 78px; /* header의 높이만큼! */
 }
 
@@ -222,7 +220,7 @@ article.artnlife .button a {
 /********* 아티스트영역  **********/
 article.artist {
     background-color: #f5efec;
-    padding: 20px 0;
+    padding: 0 5%;
     padding-bottom: 50px;
 }
 article.artist h2 {
@@ -236,7 +234,6 @@ article.artist h2 {
 article.artist .tab-menu ul {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
 }
 article.artist .tab-menu ul li {
     width: 42%;
@@ -263,7 +260,6 @@ article.artist .tab-menu ul li a {
 article.artist .tab-content {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
 
 }
 article.artist .tab-content > div {
@@ -303,15 +299,12 @@ article.artist .tab-content li.art {
    
 }
 
-
-
 /****** ABOUT US 영역  ******/
 article.aboutus {
     width: 100%;
     max-width: 767px;
     background-color: #f0dbce;
-    padding: 80px 0;
-
+    padding: 50px 0;
 }
 
 article.aboutus h2 {
@@ -330,7 +323,7 @@ article.aboutus .vision h3 {
     background-color: #54473F;
     color: #fff;
     text-align: center;
-    margin: 40px auto
+    margin: 40px auto;
 }
 
 article.aboutus .mission h3 {
@@ -341,7 +334,7 @@ article.aboutus .mission h3 {
     background-color: #54473F;
     color: #fff;
     text-align: center;
-    margin: 40px auto
+    margin: 40px auto;
 }
 article.aboutus p {
     text-align: center;
@@ -350,20 +343,19 @@ article.aboutus p {
 article.contact {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
     background-color: #eef8f5;
-    padding: 30px 0;  
+    padding: 50px 0;
 }
 article.contact h2 {
     text-align: center;
     font-family: "Chonburi", serif;
     font-size: 2rem;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 article.contact ul li {
     background-color: #e9eef7;
     width: 380px;
-    margin: 50px auto;
+    margin: 0 auto;
     
 }
 article.contact ul h3 {
@@ -380,7 +372,6 @@ article.contact ul p {
 article.cs {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
     background-color: #e2e7f0;
     padding: 30px 0; 
 }
@@ -392,12 +383,12 @@ article.cs .cs-box h3 {
     background-color: #54473F;
     color: #fff;
     text-align: center;
-    margin: 50px auto
+    margin: 50px auto;
 }
 article.cs .cont_artbox {
    width: 100%;
    max-width: 767px;
-   margin: 20px auto;
+   margin: 20px 0;
    
 }
 article.cs .cont_artbox h4 {
@@ -412,12 +403,11 @@ article.cs .cont_artbox p {
 footer {
     width: 100%;
     max-width: 767px;
-    margin: 0 auto;
     background-color: #636262;
     
 }
 footer .cont_company {
-    padding: 30px 0;
+    padding: 0 5%;
 }
 
 footer .cont_company h4 {
