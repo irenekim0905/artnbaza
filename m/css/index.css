@@ -354,7 +354,7 @@ article.contact h2 {
 }
 article.contact ul li {
     background-color: #e9eef7;
-    width: 380px;
+    width: 90%;
     margin: 0 auto;
     
 }
@@ -403,6 +403,7 @@ article.cs .cont_artbox p {
 footer {
     width: 100%;
     max-width: 767px;
+    padding: 50px 0;
     background-color: #636262;
     
 }
