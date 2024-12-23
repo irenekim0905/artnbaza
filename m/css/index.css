@@ -134,7 +134,7 @@ article.artnlife h2 {
     text-align: center;
     font-family: "Chonburi", serif;
     font-size: 2rem;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     /* padding: 20px 0; */
 }
 
@@ -206,7 +206,8 @@ article.artnlife .button {
     background-color: #605678;
     border-radius: 5px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     text-align: center;
     line-height: 40px;
 }
