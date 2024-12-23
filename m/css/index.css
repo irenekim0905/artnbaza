@@ -193,7 +193,7 @@ article.artnlife .life_mall li .txt-box {
 }
 
 article.artnlife .life_mall li .txt-box p {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 article.artnlife .life_mall li .txt-box span {
@@ -201,7 +201,7 @@ article.artnlife .life_mall li .txt-box span {
 }
 
 article.artnlife .button {
-    width: 300px;
+    width: 80%;
     height: 40px;
     background-color: #605678;
     border-radius: 5px;
@@ -212,7 +212,7 @@ article.artnlife .button {
 }
 article.artnlife .button a {
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1.2px;
 }
 
@@ -220,7 +220,6 @@ article.artnlife .button a {
 /********* 아티스트영역  **********/
 article.artist {
     background-color: #f5efec;
-    padding: 0 5%;
     padding-bottom: 50px;
 }
 article.artist h2 {
@@ -316,23 +315,26 @@ article.aboutus h2 {
 }
 
 article.aboutus .vision h3 {
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 36px;
     line-height: 30px;
     border-radius: 5px;
     background-color: #54473F;
     color: #fff;
+    font-weight: 500;
     text-align: center;
     margin: 40px auto;
+
 }
 
 article.aboutus .mission h3 {
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 36px;
     line-height: 30px;
     border-radius: 5px;
     background-color: #54473F;
     color: #fff;
+    font-weight: 500;
     text-align: center;
     margin: 40px auto;
 }
@@ -350,7 +352,7 @@ article.contact h2 {
     text-align: center;
     font-family: "Chonburi", serif;
     font-size: 2rem;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 article.contact ul li {
     background-color: #e9eef7;
@@ -359,7 +361,7 @@ article.contact ul li {
     
 }
 article.contact ul h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.2rem;
     margin-left: 50px;
     padding-top: 30px;
