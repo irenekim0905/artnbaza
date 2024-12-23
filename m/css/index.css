@@ -2,7 +2,7 @@
 
 /* 메인페이지 Mobile.css 모바일 버전   */
 
-html,
+/* html,
 body {
     width: 100%;
     height: 100%;
@@ -11,37 +11,57 @@ body {
 body {
     width: 100%;
     height: 100%;
-}
+} */
 
 header {
     width: 100%;
     max-width: 767px;
     margin: 0 auto;
-    position: relative;
-}
+    /* position: relative; */
 
-header .logo h1 {
+    padding: 20px 0;
     text-align: center;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    background-color: #fff;
+}
+header .logo {
+    display: inline-block;
+}
+header .logo h1 {
     font-family: "Chonburi", serif;
     font-size: 2rem;
-    margin: 20px auto;
+    /* margin: 20px auto; */
+}
+
+header .m-menu {
+    /* outline: 2px solid red; */
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 header .m-menu span {
+    display: block;
     width: 38px;
-    height: 1.5px;
+    height: 2px;
     background-color: #333;
 
-    position: absolute;
+    /* position: absolute;
     right: 7%;
-    top: 25%;
+    top: 25%; */
  }
 
- header .m-menu .ct1 { 
+ /* header .m-menu .ct1 { 
     margin: 10px 0px;
- }
+ } */
  header .m-menu .ct2 {
-    margin: 20px 0px;
+    margin: 14px 0px;
  }
 /************* 모바일 본문css ************/
  
@@ -49,7 +69,7 @@ section {
     width: 100%;
     max-width: 767px;
     margin: 0 auto;
-
+    margin-top: 78px; /* header의 높이만큼! */
 }
 
 main .slide-box {
@@ -79,28 +99,36 @@ main .slide-box ul li img {
 
 main h2 {
     position: absolute;
-    right: 0;
+    /* right: 0; */
+    width: 50%;
+    left: 50%;
     top: 25%;
 }
 
 main h2 img {
-    width: 60%;
+    /* width: 60%; */
+    /* height: 160px; */
+    width: 90%;
     display: block;
 }
 
 main h3 {
+    width: 100%;
     position: absolute;
-    left: 20%;
+    /* left: 20%; */
+    /* left: 50%;
+    transform: translateX(-50%); */
     bottom: 7%;
 
     font-size: 20px;
     color: #fff;
+    text-align: center;
 }
 
 article.artnlife {
     background-color: #e6f3d3;
-    margin: 0 auto;
-    padding-top: 50px;
+    /* margin: 0 auto; */
+    padding-top: 70px;
     padding-bottom: 120px;
 }
 
@@ -108,35 +136,46 @@ article.artnlife h2 {
     text-align: center;
     font-family: "Chonburi", serif;
     font-size: 2rem;
-    margin-bottom: 50px;
-    padding: 20px 0;
-
+    margin-bottom: 70px;
+    /* padding: 20px 0; */
 }
 
 article.artnlife .life_mall {
-    width: 100%;
-    margin: 0 auto;
+    padding: 0 5%;
+}
+article.artnlife .life_mall ul {
+ /*   outline: 2px solid blue; */
 }
 
-article.artnlife .life_mall .box1 li {
-    width: 45%;
+article.artnlife .life_mall ul li {
+    /* width: 45%;
+    margin-left: 3.5%; */
+
+    width: 48%;
+
     float: left;
-    margin-left: 3.5%;
-    margin-bottom: 70px;
+    
+    margin-bottom: 50px;
     text-align: center;
 
 }
+article.artnlife .life_mall ul li~li {
+    margin-left: 4%;
+}
+article.artnlife .life_mall ul li:nth-child(2n+1) {
+    margin-left: 0;
+}
 
-article.artnlife .life_mall .box2 li {
+/* article.artnlife .life_mall .box2 li {
     width: 45%;
     float: left;
     margin-left: 3.5%;
     margin-bottom: 20px;
     text-align: center;
-}
+} */
 
 article.artnlife .life_mall .img-box {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-shadow: 1px 1px 5px 0.3px rgb(181, 187, 185);
 }
 
