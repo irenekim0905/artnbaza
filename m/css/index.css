@@ -8,7 +8,10 @@ header {
     max-width: 767px;
     /* position: relative; */
 
+    height: 80px;
     padding: 20px 0;
+    box-sizing: border-box;
+
     text-align: center;
 
     position: fixed;
@@ -27,12 +30,15 @@ header .logo h1 {
     /* margin: 20px auto; */
 }
 
+/**************** 삼선모양 css 20241223 추가  **************/
+
 header .m-menu {
     /* outline: 2px solid red; */
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
 header .m-menu span {
@@ -50,16 +56,20 @@ header .m-menu span {
  /*    삼선누르면  menu 카테고리 하단으로 펼쳐짐  20241224 추가  */
 
  header .show-menu { 
-    width: 30%;
+    position: absolute; /* header 기준!!! */
+    left: 0;
+    top: 100%;
+    width: 100%;
     outline: 1px sold #838181;
-  /*  display: none; */
+    display: none; 
  }
  header .show-menu ul {
     background-color: #fff;
   }
  header .show-menu ul li { 
-    outline: 1px solid #dad8d8;
-    padding: 5px 5px; 
+    /* outline: 1px solid #dad8d8; */
+    border-top: 1px solid #dad8d8;
+    padding: 10px 5px; 
  }
  
 

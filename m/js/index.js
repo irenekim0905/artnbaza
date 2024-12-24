@@ -44,7 +44,22 @@ $(document).ready(function () {
 
 });
 
-// 모바일 메뉴 슬라이드 나타나기 기능
+// 모바일 메뉴 드롭다운 메뉴 기능추가 241224
+
+    $(document).ready(function(){
+
+        $('.m-menu').click(function(){
+
+            //$(this).find('.show-menu').slideDown();
+
+            $('.show-menu').slideToggle();
+
+        });
+
+        //$('.m-menu').
+
+
+    });
 
 
 // 모바일 하단 고정메뉴 스티커 기능추가
