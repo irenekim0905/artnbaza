@@ -192,8 +192,11 @@ article.artnlife .sticker .sticker-menu li a {
     font-weight: 600;
     /* outline: 1px solid red; ; */
 }
-
-
+article.artnlife .sticker .sticker-menu li a img {
+    width: 45%;
+    display: block;
+    margin-left: 25%;
+}
 
 /**************  아트앤리빙 쇼핑몰 css **********/
 
