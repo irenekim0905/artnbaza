@@ -45,14 +45,14 @@ header .m-menu {
 
 header .m-menu span {
     display: block;
-    width: 38px;
+    width: 36px;
     height: 2px;
     background-color: #333;
 
 }
 
 header .m-menu .ct2 {
-    margin: 14px 0px;
+    margin: 12px 0px;
 }
 
 /*    삼선누르면  menu 카테고리 하단으로 펼쳐짐  20241224 추가  */
@@ -175,14 +175,14 @@ article.artnlife .sticker .sticker-menu {
 }
 
 article.artnlife .sticker .sticker-menu li {
-    width: 16%;
+    width: 19%;
     height: 50px;
     float: left;
-    margin-left: 2px;
+    margin-left: 4px;
     /* outline: 1px solid red; */
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 9px;
 
 }
 
@@ -489,7 +489,7 @@ footer {
     max-width: 767px;
     padding: 50px 0;
     background-color: #636262;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 footer .cont_company {
