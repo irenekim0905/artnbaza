@@ -21,9 +21,11 @@ header {
 
     background-color: #fff;
 }
+
 header .logo {
     display: inline-block;
 }
+
 header .logo h1 {
     font-family: "Chonburi", serif;
     font-size: 2rem;
@@ -47,39 +49,43 @@ header .m-menu span {
     height: 2px;
     background-color: #333;
 
- }
+}
 
- header .m-menu .ct2 {
+header .m-menu .ct2 {
     margin: 14px 0px;
- }
+}
 
- /*    삼선누르면  menu 카테고리 하단으로 펼쳐짐  20241224 추가  */
+/*    삼선누르면  menu 카테고리 하단으로 펼쳐짐  20241224 추가  */
 
- header .show-menu { 
-    position: absolute; /* header 기준!!! */
+header .show-menu {
+    position: absolute;
+    /* header 기준!!! */
     left: 0;
     top: 100%;
     width: 100%;
     outline: 1px sold #838181;
-    display: none; 
- }
- header .show-menu ul {
+    display: none;
+}
+
+header .show-menu ul {
     background-color: #fff;
-  }
- header .show-menu ul li { 
+}
+
+header .show-menu ul li {
     /* outline: 1px solid #dad8d8; */
     border-top: 1px solid #dad8d8;
-    padding: 10px 5px; 
- }
- 
+    padding: 10px 5px;
+}
+
 
 
 /************* 모바일 본문css ************/
- 
+
 section {
     width: 100%;
     max-width: 767px;
-    margin-top: 78px; /* header의 높이만큼! */
+    margin-top: 78px;
+    /* header의 높이만큼! */
 }
 
 main .slide-box {
@@ -150,7 +156,7 @@ article.artnlife h2 {
     /* padding: 20px 0; */
 }
 
-/**************  skicker menu  20241224 스티커하단메뉴추가 **********/
+/**************  skicker menu  20241224 스티커 고정하단메뉴추가 **********/
 
 article.artnlife .sticker {
     width: 100%;
@@ -158,33 +164,37 @@ article.artnlife .sticker {
     background-color: #d9d9d9;
 
     position: fixed;
-    top: 90%;
+    top: 92%;
     left: 0;
     z-index: 998;
 }
+
 article.artnlife .sticker .sticker-menu {
     width: 92%;
     margin: 0 auto;
 }
+
 article.artnlife .sticker .sticker-menu li {
     width: 16%;
     height: 50px;
     float: left;
     margin-left: 2px;
-   /* outline: 1px solid red; */
+    /* outline: 1px solid red; */
     text-align: center;
     padding-top: 10px;
     padding-bottom: 8px;
 
 }
+
 article.artnlife .sticker .sticker-menu li a {
     width: 100%;
-   font-size: 10px;
-   font-weight: 600;
-   outline: 1px solid red; ;
+    font-size: 10px;
+    font-weight: 700;
+    /* outline: 1px solid red; ; */
 }
+
 article.artnlife .sticker .sticker-menu li img {}
-   
+
 
 
 
@@ -193,8 +203,9 @@ article.artnlife .sticker .sticker-menu li img {}
 article.artnlife .life_mall {
     padding: 0 5%;
 }
+
 article.artnlife .life_mall ul {
- /*   outline: 2px solid blue; */
+    /*   outline: 2px solid blue; */
 }
 
 article.artnlife .life_mall ul li {
@@ -204,14 +215,16 @@ article.artnlife .life_mall ul li {
     width: 48%;
 
     float: left;
-    
+
     margin-bottom: 50px;
     text-align: center;
 
 }
+
 article.artnlife .life_mall ul li~li {
     margin-left: 4%;
 }
+
 article.artnlife .life_mall ul li:nth-child(2n+1) {
     margin-left: 0;
 }
@@ -256,6 +269,7 @@ article.artnlife .button {
     text-align: center;
     line-height: 40px;
 }
+
 article.artnlife .button a {
     color: #fff;
     font-size: 1rem;
@@ -268,6 +282,7 @@ article.artist {
     background-color: #f5efec;
     padding-bottom: 50px;
 }
+
 article.artist h2 {
     text-align: center;
     font-family: "Chonburi", serif;
@@ -280,6 +295,7 @@ article.artist .tab-menu ul {
     width: 100%;
     max-width: 767px;
 }
+
 article.artist .tab-menu ul li {
     width: 42%;
     height: 40px;
@@ -296,6 +312,7 @@ article.artist .tab-menu ul li {
 article.artist .tab-menu ul li.on {
     background-color: #FF885B;
 }
+
 article.artist .tab-menu ul li a {
     font-size: 1rem;
     color: #fff;
@@ -307,41 +324,47 @@ article.artist .tab-content {
     max-width: 767px;
 
 }
-article.artist .tab-content > div {
-     /* 각 컨텐츠 덩어리! */
-     width: 100%;
-     display: none; 
+
+article.artist .tab-content>div {
+    /* 각 컨텐츠 덩어리! */
+    width: 100%;
+    display: none;
 }
-article.artist .tab-content > div.on {
+
+article.artist .tab-content>div.on {
     width: 100%;
     display: block;
 }
+
 article.artist .tab-content img {
     width: 100%;
     display: block;
 }
 
 article.artist .tab-content li {
-   float: left;
-   width: 30%;
-   
+    float: left;
+    width: 30%;
+
 }
+
 article.artist .tab-content li.artist {
     width: 65%;
     margin-left: 5%;
     margin-bottom: 20px;
     border: 0.3px solid #b9a396;
 }
+
 article.artist .tab-content li.icon {
     width: 15%;
     margin-left: 5%;
     margin-top: 40%;
 }
+
 article.artist .tab-content li.art {
     width: 90%;
     margin-left: 5%;
     border: 0.2px solid #806658;
-   
+
 }
 
 /****** ABOUT US 영역  ******/
@@ -384,6 +407,7 @@ article.aboutus .mission h3 {
     text-align: center;
     margin: 40px auto;
 }
+
 article.aboutus p {
     text-align: center;
 }
@@ -395,29 +419,34 @@ article.contact {
     padding-top: 20px;
     padding-bottom: 30px;
 }
+
 article.contact h2 {
     text-align: center;
     font-family: "Chonburi", serif;
     font-size: 2rem;
     padding: 30px 0;
 }
+
 article.contact ul li {
     background-color: #e9eef7;
     width: 90%;
     margin: 0 auto;
-    
+
 }
+
 article.contact ul h3 {
     font-weight: 700;
     font-size: 1.2rem;
     margin-left: 50px;
     padding-top: 30px;
 }
+
 article.contact ul p {
     font-weight: 400;
     margin: 30px 50px;
     padding-bottom: 30px;
 }
+
 article.cs {
     width: 100%;
     max-width: 767px;
@@ -425,6 +454,7 @@ article.cs {
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
 article.cs .cs-box h3 {
     width: 110px;
     height: 36px;
@@ -436,17 +466,20 @@ article.cs .cs-box h3 {
     font-weight: 600;
     margin: 50px auto;
 }
+
 article.cs .cont_artbox {
-   width: 100%;
-   max-width: 767px;
-   margin: 20px 0;
-   
+    width: 100%;
+    max-width: 767px;
+    margin: 20px 0;
+
 }
+
 article.cs .cont_artbox h4 {
     font-weight: 600;
-   margin: 22px 50px;
-   
+    margin: 22px 50px;
+
 }
+
 article.cs .cont_artbox p {
     margin-left: 50px;
 }
@@ -456,8 +489,9 @@ footer {
     max-width: 767px;
     padding: 50px 0;
     background-color: #636262;
-    
+
 }
+
 footer .cont_company {
     padding: 0 5%;
 }
@@ -468,6 +502,7 @@ footer .cont_company h4 {
     margin-bottom: 20px;
     margin-left: 50px;
 }
+
 footer .cont_company p {
     color: #fff;
     margin-left: 50px;
