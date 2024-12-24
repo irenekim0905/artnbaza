@@ -172,30 +172,27 @@ article.artnlife .sticker {
 article.artnlife .sticker .sticker-menu {
     width: 92%;
     margin: 0 auto;
+    margin-left: 5%;
+    
 }
 
 article.artnlife .sticker .sticker-menu li {
-    width: 19%;
-    height: 50px;
+    width: 18%;
+    height: 56px;
     float: left;
-    margin-left: 4px;
+    margin-left: 2px;
     /* outline: 1px solid red; */
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 9px;
-
 }
 
 article.artnlife .sticker .sticker-menu li a {
-    width: 100%;
     font-size: 12px;
     font-weight: 600;
     /* outline: 1px solid red; ; */
 }
 article.artnlife .sticker .sticker-menu li a img {
-    width: 45%;
-    display: block;
-    margin-left: 25%;
+    width: 40%;
 }
 
 /**************  아트앤리빙 쇼핑몰 css **********/
