@@ -50,7 +50,6 @@ header nav ul li {
 section {
     width: 100%;
     max-width: 1920px;
-    margin: 0 auto;
     background-color: #DFF2EB;
 
     position: relative;
@@ -116,10 +115,10 @@ section article.cont01 .imgbox li img {
     border-radius: 20px;
 }
 
-section article.cont01 .imgbox li span p {
+section article.cont01 .imgbox li  p {
     color: #333;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 10px;
 }
 
