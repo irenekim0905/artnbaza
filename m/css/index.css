@@ -42,6 +42,7 @@ header .m-menu {
     transform: translateY(-50%);
     cursor: pointer;
 }
+
 header .m-menu span {
     display: block;
     width: 36px;
@@ -54,8 +55,8 @@ header .m-menu .ct2 {
 }
 
 header .m-menu p {
-   font-size: 10px;
-   margin-top: 5px;
+    font-size: 10px;
+    margin-top: 5px;
 }
 
 
@@ -176,7 +177,7 @@ article.artnlife .sticker .sticker-menu {
     width: 92%;
     margin: 0 auto;
     margin-left: 5%;
-    
+
 }
 
 article.artnlife .sticker .sticker-menu li {
@@ -195,6 +196,7 @@ article.artnlife .sticker .sticker-menu li a {
     font-weight: 500;
     /* outline: 1px solid red; ; */
 }
+
 article.artnlife .sticker .sticker-menu li a img {
     width: 40%;
 }
@@ -253,6 +255,7 @@ article.artnlife .life_mall li .txt-box {
 
 article.artnlife .life_mall li .txt-box p {
     font-size: 16px;
+    margin-bottom: 5px;
 }
 
 article.artnlife .life_mall li .txt-box span {
