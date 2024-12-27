@@ -93,8 +93,46 @@ article.topimg img {
     display: block;
 
 }
-
 /**************  skicker menu  20241224 스티커 고정하단메뉴추가 **********/
+
+article.artnlife .sticker {
+    width: 100%;
+    max-width: 767px;
+    background-color: #d9d9d9;
+
+    position: fixed;
+    top: 90%;
+    left: 0;
+    z-index: 998;
+}
+
+article.artnlife .sticker .sticker-menu {
+    width: 92%;
+    margin: 0 auto;
+    margin-left: 5%;
+
+}
+
+article.artnlife .sticker .sticker-menu li {
+    width: 18%;
+    height: 56px;
+    float: left;
+    margin-left: 2px;
+    /* outline: 1px solid red; */
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+article.artnlife .sticker .sticker-menu li a {
+    font-size: 12px;
+    font-weight: 500;
+    /* outline: 1px solid red; ; */
+}
+
+article.artnlife .sticker .sticker-menu li a img {
+    width: 40%;
+}
 
 
 /**************  아트앤리빙 쇼핑몰 css **********/
