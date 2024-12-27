@@ -142,6 +142,7 @@ article.event {
 }
 
 article.event h2 {
+    font-family: "Noto Sans KR", serif;
     font-size: 1.6rem;
     font-weight: 400;
     padding-top: 50px;
@@ -248,7 +249,7 @@ article.search p {
 article.search .txt {
     position: absolute;
     top: 0%;
-    right: 0;
+    right: 10%;
 }
 
 article.search p span {
@@ -301,15 +302,15 @@ article.life_mall .box .txt-box {
     text-align: center;
     padding-top: 4px;
 }
-article .life_mall li .txt-box p {
+article.life_mall li .txt-box p {
     font-family: "Noto Sans KR", serif;
     font-size: 16px;
-    margin-bottom: 3px;
+    margin: 5px 0;
 }
 article.life_mall ul li .txt-box p span {
     font-family: "Noto Sans KR", serif;
-    color: #f1602c;
-    margin-bottom: 5px;
+    color: #f17244;
+    margin-bottom: 3px;
 }
 article.next-bar .next-box {
     width: 80%;
@@ -359,7 +360,7 @@ footer .cont_company {
 }
 
 footer .cont_company h4 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #fff;
     margin-bottom: 20px;
     margin-left: 50px;
@@ -369,5 +370,5 @@ footer .cont_company p {
     color: #fff;
     margin-left: 50px;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
