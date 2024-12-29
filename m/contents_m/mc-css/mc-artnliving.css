@@ -23,7 +23,7 @@ header {
 
 header .logo h1 {
     font-family: "Chonburi", serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /**************** 삼선모양 css 20241223 추가  **************/
@@ -93,6 +93,7 @@ article.topimg img {
     display: block;
 
 }
+
 /**************  skicker menu  20241224 스티커 고정하단메뉴추가 **********/
 
 article.artnlife .sticker {
@@ -230,40 +231,35 @@ article.search {
 }
 
 article.search .letters {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 30px;
-    position: relative;
 }
 
-article.search img {
-    width: 25%;
-    margin-left: 30px;
-}
-
-article.search p {
+article.search .letters p {
     font-family: "Noto Sans KR", serif;
-    font-size: 1.3rem;
+    text-align: center;
+    color: #333;
+}
+
+article.search .search-box p {
+    font-family: "Noto Sans KR", serif;
+    font-size: 0.8rem;
     margin: 30px 15px;
 }
 
-article.search .txt {
-    position: absolute;
-    top: 0%;
-    right: 10%;
-}
-
-article.search p span {
+article.search .search-box span {
     font-family: "Chonburi", serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 article .search-box ul li {
     width: 31%;
     float: left;
     margin-left: 2%;
-    height: 120px;
+    /* height: 100px;*/
     background-color: #e2e1e1;
 }
+
 article .search-box ul li:hover {
     background-color: #FF885B;
 }
@@ -274,7 +270,7 @@ article.life_mall {
 }
 
 article.life_mall .box {
-   padding-top: 50px;
+    padding-top: 30px;
 }
 
 article.life_mall ul li {
@@ -283,6 +279,7 @@ article.life_mall ul li {
     margin-bottom: 50px;
     text-align: center;
 }
+
 article.life_mall ul li~li {
     margin-left: 4%;
 }
@@ -290,6 +287,7 @@ article.life_mall ul li~li {
 article.life_mall ul li:nth-child(2n+1) {
     margin-left: 0;
 }
+
 article.life_mall .box .img-box img {
     width: 100%;
     display: block;
@@ -302,16 +300,19 @@ article.life_mall .box .txt-box {
     text-align: center;
     padding-top: 4px;
 }
+
 article.life_mall li .txt-box p {
     font-family: "Noto Sans KR", serif;
     font-size: 16px;
     margin: 5px 0;
 }
+
 article.life_mall ul li .txt-box p span {
     font-family: "Noto Sans KR", serif;
     color: #f17244;
     margin-bottom: 3px;
 }
+
 article.next-bar .next-box {
     width: 80%;
     margin: 30px auto;
@@ -320,32 +321,37 @@ article.next-bar .next-box {
     background-color: #636262;
     border-radius: 5px;
     text-align: center;
-  /*  margin-top: 20px;
-    margin-bottom: 50px; */
+    padding: 0 2%;
 }
+
 article.next-bar .next-box ul li {
     display: inline-block;
     color: #fff;
     font-family: "Noto Sans KR", serif;
- /*   width: 10%;
+    /*   width: 10%;
     float: left;  */
 }
+
 article.next-bar .next-box ul li a {
     font-family: "Noto Sans KR", serif;
     padding: 0 5px;
     color: #fff;
     font-size: 1.2rem;
 }
+
 article.next-bar .next-box ul li a:hover {
     color: #d6673e;
 }
+
 article.next-bar .icon {
     margin: 50px auto;
     width: 14%;
 }
+
 article.next-bar .icon img {
     width: 100%;
 }
+
 
 footer {
     width: 100%;
