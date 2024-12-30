@@ -27,8 +27,7 @@
 }
 
 .noto-sans-kr {
-    font-family: "Noto Sans KR", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+    font-family: "Noto Sans", serif;
+    font-weight: 400;
     font-style: normal;
 }
