@@ -31,6 +31,7 @@ header .login_box {
 header .login li {
     float: left;
     margin-left: 30px;
+    font-family: "Noto Sans KR", serif;
 }
 
 header h1 {
@@ -53,6 +54,7 @@ header nav ul li {
     font-weight: 600;
     color: #333;
     text-align: center;
+    font-family: "Noto Sans KR", serif;
 }
 
 /***********  about_baza section 상단 css ***********/
