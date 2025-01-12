@@ -3,18 +3,18 @@
 
 /* 상단메뉴 로그인바 css */
 
-body {
+/* body {
     width: 100%;
    
-}
-.color {
+} */
+/* .color {
     background-image: url(../imgs/baza/color.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: 55%;
     background-position-x: 666px;
 
-}
+} */
 
 header {
     width: 1280px;
@@ -31,6 +31,7 @@ header .login_box {
 header .login li {
     float: left;
     margin-left: 30px;
+    font-family: "Noto Sans KR", serif;
 }
 
 header h1 {
@@ -53,6 +54,7 @@ header nav ul li {
     font-weight: 600;
     color: #333;
     text-align: center;
+    font-family: "Noto Sans KR", serif;
 }
 
 /***********  about_baza section 상단 css ***********/
@@ -67,6 +69,13 @@ section {
 
     position: relative;
     padding-bottom: 50px;
+
+    background-image: url(../imgs/baza/color.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 680px 50%;
+    /* background-position-y: 55%;
+    background-position-x: 666px; */
 }
 
 section .big-logo {
