@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*  모바일버전 서울아트페어 통 이미지 02버전  */
+
+section {
+    width: 100%;
+    max-width: 767px;
+}
+
+section .img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section img {
+    width: 100%;
+}
+
+
+footer {
+    width: 100%;
+    max-width: 767px;
+    padding: 50px 0;
+    background-color: #636262;
+    margin-bottom: 60px;
+}
+
+footer .cont_company {
+    padding: 0 5%;
+}
+
+footer .cont_company h4 {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+footer .cont_company p {
+    color: #fff;
+    margin-left: 50px;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
