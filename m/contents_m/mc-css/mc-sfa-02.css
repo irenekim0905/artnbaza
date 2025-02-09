@@ -21,7 +21,7 @@ footer {
     width: 100%;
     max-width: 767px;
     padding: 50px 0;
-    background-color: #636262;
+    background-color: #E8F9FF;
     margin-bottom: 60px;
 }
 
@@ -31,13 +31,13 @@ footer .cont_company {
 
 footer .cont_company h4 {
     font-size: 0.9rem;
-    color: #fff;
+    color: #333;
     margin-bottom: 20px;
     margin-left: 50px;
 }
 
 footer .cont_company p {
-    color: #fff;
+    color: #666;
     margin-left: 50px;
     font-weight: 300;
     font-size: 0.8rem;
